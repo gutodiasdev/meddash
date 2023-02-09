@@ -44,7 +44,7 @@ function Header() {
           gridTemplateColumns={{ xl: '150px 10fr 1fr' }}
           gap={{ xl: '56px' }}
         >
-          <Image src='/images/logo.png' width={150} height={50} alt='Logo MedDash' />
+          <Image src='/images/logo.png' width={150} height={50} alt='Logo MedDash' priority />
           <Flex
             as={'nav'}
             gap={{ xl: '32px' }}

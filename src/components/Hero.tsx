@@ -35,7 +35,7 @@ function Hero() {
           seus pacientes com o MedDash
         </Text>
       </Box>
-      <Image src='/images/hero-image.webp' width={1350} height={859} alt='Image' />
+      <Image src='/images/hero-image.webp' width={1350} height={859} alt='Image' priority />
     </Flex>
   )
 }
