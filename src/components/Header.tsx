@@ -1,10 +1,20 @@
 import { Box } from '@chakra-ui/react'
+import Head from 'next/head'
 
-function Header() {
+type HeaderProps = {
+  title?: string
+}
+
+function Header(props: HeaderProps) {
   return (
-    <Box>
-      This is the header
-    </Box>
+    <>
+      <Head>
+        <title>Meddash - {props.title ?? 'Gerenciamento médico simplificado'}</title>
+      </Head>
+      <Box>
+        This is the header
+      </Box>
+    </>
   )
 }
 
