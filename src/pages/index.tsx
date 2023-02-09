@@ -1,5 +1,5 @@
 import { Inter } from '@next/font/google'
-import { Header } from '../components/Header'
+import { Footer, Header } from '../components'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Header />
       <h1>App is working!</h1>
+      <Footer />
     </>
   )
 }
